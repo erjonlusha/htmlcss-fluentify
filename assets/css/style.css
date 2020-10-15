@@ -11,12 +11,12 @@ body {
 }
 
 /* Utility */
-.cl-fix::after {
+.cl_fix::after {
   content: "";
   display: table;
   clear: both;
 }
-.up-cs {
+.up_cs {
   text-transform: uppercase;
 }
 
@@ -45,16 +45,31 @@ nav{
 
 /* /Header */
 
+/* Main */
+.row1, .row2{margin: auto;}
+.row1>.card{
+  width: 33%;
+}
+.row2>.card{width: 50%;}
+/* /Main */
+
+/* Footer */
+.left{width: 50%;}
+.right{width: 50%}
+/* /Footer */
+
+
 /* debug */
 .debug{
   background-color: lightblue;
   border: 2px solid blue;
 }
+.grey{background-color: grey;}
 .orange{background-color: orange;}
 .pink{background-color: pink;}
 .yellow{background-color: yellow;}
 .blue{background-color: blue;}
 .red{  background-color: red;}
 .purple{background-color: purple;}
-.h50{height: 50px;}
+.h50{height: 100px;}
 /* /debug */
