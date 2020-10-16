@@ -37,17 +37,16 @@ body {
 /* Header */
 header, main, footer{
   width: 100%;
-  height: 550px;
 }
 .logo{
 width: 15%;
 
 }
 .m_left{
-width: 50%
+width: 40%
 }
 .m_right{
-width: 35%
+width: 45%
 }
 
 nav{
@@ -55,7 +54,7 @@ nav{
   line-height: 1.8em;
 }
 /* menu */
-header > div > nav > div > ul > li > a{
+.tdn_cw>li>a, .tdn_cw>a{
   text-decoration: none;
   color: white;
 }
@@ -68,7 +67,7 @@ nav > div > ul > li{
 /* /menu */
 
 /* banner_header */
-.cover{
+.testata{
   color: white;
   position: relative;
   height: calc(510px - 1.8em);
@@ -76,9 +75,14 @@ nav > div > ul > li{
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 110% 110%;
+  overflow: hidden;
+  min-width: 1400px;
 }
 
-.hero_text>h1{font-size: 50px;}
+.hero_text>h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
 .hero_text{
   width: 50%;
   position: absolute;
