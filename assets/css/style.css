@@ -33,6 +33,14 @@ body {
 .bg_bl{background-color: #0c325a;}
 .bg_grn{background-color: #7cbb02;}
 .bg_gry{background-color: #d3d3d3}
+
+.pd_40{padding: 40px;}
+.lead{
+  color: #808080;
+  font-size: 1.2em;
+}
+.tx_center{text-align: center;}
+h2{font-weight: 500;}
 /* Utility */
 /* Header */
 header, main, footer{
@@ -92,31 +100,68 @@ nav > div > ul > li{
 /* /Header */
 
 /* Main */
-.row1, .row2{margin: auto;}
+.row1, .row2{
+  margin: auto;
+  margin-top: 20px;
+}
 .row1>.card{
-  width: 33%;
+  width: 33.3333%;
+}
+
+.img_r1>img{
+  height: 150px;
+
+}
+.row1>div>div>h2{color:#7cbb02;}
+
+.img_r1{
+  padding: 0 40px;
+}
+.img_r1>hr{
+  border-style: solid;
+  margin: 20px auto;
+  width: 20%;
+  color: #808080;
+}
+main > hr{
+  color: #808080;
+  border-style: solid;
+  margin: 40px 1%;
 }
 .row2>.card{width: 50%;}
+.img_r2{
+  padding:20px;
+}
+.row2>div.pd_40{
+  line-height: 1.5em;
+  font-size: 30px;
+}
+
 /* /Main */
 
 /* Footer */
-.left{width: 50%;}
-.right{width: 50%}
-/* /Footer */
-
-
-/* debug */
-.debug{
-  background-color: lightblue;
-  border: 2px solid blue;
+footer>div{margin: auto;}
+.left{
+  width: 50%;
+  line-height: 1.5em;
+  font-size: 30px;
 }
+footer > div > div.right.card.lft > p{
+  display: inline;
 
-.cy{background-color: cyan}
-.grey{background-color: grey;}
-.orange{background-color: orange;}
-.pink{background-color: pink;}
-.yellow{background-color: yellow;}
-.red{  background-color: red;}
-.purple{background-color: purple;}
-.h50{height: 100px;}
-/* /debug */
+}
+.right{
+  text-align: right;
+  width: 50%;
+  margin: 12px 0;
+}
+ div.right.card.lft.pd_40.tdn_cw > p, div.right.card.lft.pd_40.tdn_cw > select{
+  padding: 0 15px;
+}
+ div.right.card.lft.pd_40.tdn_cw > select{
+  margin: 0 15px 0 0;
+  border: none;
+  border-bottom: 1px solid #808080;
+  color: #808080
+}
+/* /Footer */
